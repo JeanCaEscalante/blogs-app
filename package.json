@@ -1,7 +1,7 @@
 {
   "name": "blogs-app",
   "version": "0.1.0",
-  "homepage": "https://JeanCaEscalante.github.io/blogs-app",
+  "homepage": "https://jeancaescalante.github.io/blogs-app/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.17",
