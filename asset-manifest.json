@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/blogs-app/static/css/main.d1811301.css",
-    "main.js": "/blogs-app/static/js/main.e8515482.js",
+    "main.js": "/blogs-app/static/js/main.b5546845.js",
+    "static/media/viajero-sentado.jpg": "/blogs-app/static/media/viajero-sentado.f662eb0dc208fbad2b07.jpg",
     "index.html": "/blogs-app/index.html",
     "main.d1811301.css.map": "/blogs-app/static/css/main.d1811301.css.map",
-    "main.e8515482.js.map": "/blogs-app/static/js/main.e8515482.js.map"
+    "main.b5546845.js.map": "/blogs-app/static/js/main.b5546845.js.map"
   },
   "entrypoints": [
     "static/css/main.d1811301.css",
-    "static/js/main.e8515482.js"
+    "static/js/main.b5546845.js"
   ]
 }
