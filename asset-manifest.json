@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/blogs-app/static/css/main.d1811301.css",
-    "main.js": "/blogs-app/static/js/main.b5546845.js",
+    "main.css": "/blogs-app/static/css/main.d723c4bc.css",
+    "main.js": "/blogs-app/static/js/main.ed848450.js",
+    "static/media/arreglo-pasaporte-boletos-vista-superior.jpg": "/blogs-app/static/media/arreglo-pasaporte-boletos-vista-superior.3b5dd92b266eb27a5a6d.jpg",
+    "static/media/vista-lateral-carne.jpg": "/blogs-app/static/media/vista-lateral-carne.5e6f80af8b3e0c83195e.jpg",
     "static/media/viajero-sentado.jpg": "/blogs-app/static/media/viajero-sentado.f662eb0dc208fbad2b07.jpg",
+    "static/media/vuelo-globo-aerostatico.jpg": "/blogs-app/static/media/vuelo-globo-aerostatico.1a00bec4f29e24481b96.jpg",
+    "static/media/napoles.jpeg": "/blogs-app/static/media/napoles.2c251fc3dc5a1cd722e3.jpeg",
     "index.html": "/blogs-app/index.html",
-    "main.d1811301.css.map": "/blogs-app/static/css/main.d1811301.css.map",
-    "main.b5546845.js.map": "/blogs-app/static/js/main.b5546845.js.map"
+    "main.d723c4bc.css.map": "/blogs-app/static/css/main.d723c4bc.css.map",
+    "main.ed848450.js.map": "/blogs-app/static/js/main.ed848450.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1811301.css",
-    "static/js/main.b5546845.js"
+    "static/css/main.d723c4bc.css",
+    "static/js/main.ed848450.js"
   ]
 }
