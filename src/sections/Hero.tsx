@@ -1,4 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
+import viajero from '../images/viajero-sentado.jpg';
 
 export default function Index() {
   return (
@@ -8,7 +8,7 @@ export default function Index() {
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover"
-            src={'/images/viajero-sentado.jpg'}
+            src={viajero}
             alt="traveler sitting on rock holding camera taking
                  photos mountains doi pha mon chiang rai thailand"
           />

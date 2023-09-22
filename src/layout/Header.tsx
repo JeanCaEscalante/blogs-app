@@ -26,13 +26,13 @@ const navigation = [
                 href="#"
                 className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
               >
-                Sign in
+                Iniciar sesión
               </a>
               <a
                 href="#"
                 className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50"
               >
-                Sign up
+                Crear cuenta
               </a>
             </div>
           </div>

@@ -1,14 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "../layout/Layout";
+import GuestLayout from "../layout/GuestLayout";
 import Index from "../pages/Index";
 import Travel from "../pages/Travel";
 import Food from "../pages/Food";
-
+import Article from "../components/Article";
+import TravelList from "../pages/TravelList";
+import FoodList from "../pages/FoodList";
 
   const Router = createBrowserRouter([
     {
       path: "/",
-      element: <Layout />,
+      element: <GuestLayout />,
       children: [
         {
           path: "/",
@@ -17,13 +19,34 @@ import Food from "../pages/Food";
         {
           path: "travel",
           element: <Travel />,
+          children: [
+            {
+              index: true,
+              element: <TravelList />,
+            },
+            {
+              path: ":articleId",
+              element: <Article />,
+            },
+          ]
         },
         {
           path: "food",
           element: <Food />,
-        },
+          children: [
+            {
+              index: true,
+              element: <FoodList />,
+            },
+            {
+              path: ":articleId",
+              element: <Article />,
+            },
+          ]
+          
+        }
       ],
     },
-  ]);
+  ], { basename: "/blogs-app" });
 
   export default Router;
